@@ -2,7 +2,7 @@ FROM ubuntu:14.04
 
 MAINTAINER Talita Bernardes
 
-RUN apt-get update && apt-get install apache2 unzip zip -y && apt-get clean && rm -rf /var/lib/apt/lists/*
+RUN apt-get update && apt-get install apache2 unzip zip mysql-client -y && apt-get clean && rm -rf /var/lib/apt/lists/*
 
 VOLUME /home/TalitaBP/Documentos/LinuxTips
 
