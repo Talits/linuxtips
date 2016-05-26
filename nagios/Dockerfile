@@ -1,7 +1,8 @@
 FROM ubuntu:14.04
 MAINTAINER TALITA BERNARDES
 
-RUN apt-get update && apt-get install nagios3
+RUN apt-get update && apt-get -y install nagios3 
+
 
 
 VOLUME /home/TalitaBP/Documentos/LinuxTips
