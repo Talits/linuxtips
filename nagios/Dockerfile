@@ -8,7 +8,7 @@ RUN apt-get update && apt-get -y install nagios3
 VOLUME /home/TalitaBP/Documentos/LinuxTips
 
 ADD  monitor.cfg  /etc/nagios3/conf.d
-EXPOSE 80
+EXPOSE 3000
 
 
 CMD ["/etc/init.d/nagios3 start"]
