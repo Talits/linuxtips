@@ -12,7 +12,7 @@ ENV APACHE_LOG_DIR /var/log/apache2
 
 ADD prototipos-atualizados.zip /var/www/
 
-EXPOSE 80
+EXPOSE 80 3306
 
 CMD ["cd", "/var/www/"]
 CMD ["rm", "/var/www/index.html"]
