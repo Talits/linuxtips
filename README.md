@@ -33,7 +33,7 @@ ff02::2    ip6-allrouters
 172.17.0.4:3306 ---> bd
 172.17.0.3-----> nagios na porta 3000
 
-preciso ajustar nagios senha
+Foi preciso ajustar a senha do nagios
 
 htpasswd -c /etc/nagios3/htpasswd.users nagiosadmin
 New password: 
